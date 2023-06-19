@@ -7,7 +7,7 @@
 ### Image Processing
 Background of the images were removed using the Python tool ”rembg” which uses U2-Net, an architecture designed for salient object detection (SOD). Result image is converted to a binary image by setting the background color as black and every pixel belonging to foreground object as white.
 ### Distance Transform
-####Euclidean Distance Transform (EDT) 
+#### Euclidean Distance Transform (EDT) 
 EDT is applied to the binary image. EDT simply measures the distance of white pixels to the closest black (edge) pixel using the equation below:
 
 $D_{Euclid} = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
